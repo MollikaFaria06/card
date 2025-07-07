@@ -1,0 +1,38 @@
+.card{
+    
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid tomato;
+    padding: 10px;
+    text-align: left;
+    box-shadow: 10px 10px 10px black;
+
+}
+.card img{
+    width: 50%;
+    height: 200px;
+    border-radius: 50%;
+}
+.card h3{
+    font-size: 1.25em;
+    font-weight: 500px;
+}
+
+body{
+    max-width: 1170px;
+    background-color: beige;
+    margin: 0 auto;
+}
+.card:hover{
+    background-color: aquamarine;
+}
+.card-container{
+    display: flex;
+    gap: 50px;
+    text-align: justify;
+    flex-wrap:wrap;
+    /* display: inline-block; */
+}
+.card-section{
+    text-align: center;
+}
